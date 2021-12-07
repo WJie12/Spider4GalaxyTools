@@ -8,10 +8,9 @@ bs4 \
 pandas 
 
 # To run
-Warning: 
-You have to run tools_category.py at first in order to get the URLs.
-- tools_category.py: get all categories of tools and the corresponding URL.
-- tools.py: get all tools by category.
+Step 1: Change the 'driver_path' to your Chrome driver path. [Chrome driver download page](https://chromedriver.chromium.org/downloads) 
+Step 2: python tools_category.py: get all categories of tools and the corresponding URL.
+Step 3: python tools.py: get all tools by category.
 
 Tips:
  
