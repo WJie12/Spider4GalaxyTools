@@ -57,7 +57,7 @@ def get_tools_by_category(url, category):
 
     df = pd.DataFrame(list(zip(name_list, synopsis_list, owner_list)),
                       columns=['name', 'synopsis', 'owner'])
-    df.to_csv('./' + category + '.csv', header=False, index=False)
+    df.to_csv('./' + category + '.csv', header=False, index=False, encoding='utf-8')
     print("over")
 
 
